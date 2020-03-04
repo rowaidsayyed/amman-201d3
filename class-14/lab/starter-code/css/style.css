@@ -1,1 +1,55 @@
 /* TODO: Make it awesome */
+body{
+    background-color: gold;
+}
+main{
+    height: 400px;
+}
+nav{
+    width: 100%;
+    text-align: center;
+}
+nav ul li{
+display: inline-block;
+margin: 20px;
+}
+
+#cartContents,#catalog{
+    margin: 2px 20px;
+    border: solid 1px;
+}
+#cartContents li{
+    list-style: decimal;
+    padding: 1px;
+    margin: 20px;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+}
+a{
+    text-decoration: none;
+    color: brown;
+    font-size: large;
+}
+ul span{
+    margin: 20px;
+    font-size: large;
+}
+table,tr,td,th{
+    border: 2px solid;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: large;
+}
+td[title]{
+    color: green;
+    padding: 2px;
+    cursor: pointer;
+    white-space: nowrap;
+    border: solid 2px black;
+    text-align: center;
+}
+
